@@ -1,0 +1,133 @@
+/*......................................HEADER...............................*/
+.logomu {
+width: 150px;
+margin-top: 20px;
+}
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+line-height: 20px;
+white-space: nowrap;
+}
+nav li {
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+border-right: 1px #EC661E solid;
+}
+nav li:hover a{
+background: #F83232;
+text-decoration: none;
+}
+nav a {
+text-decoration: none;
+padding: 10px 25px;
+color: #EC661E;
+}
+nav a:hover {
+color: #EFFCE4;
+}
+a{
+	text-decoration: none;
+}
+/*fin*/
+.cajarank{
+	background-color: #EC661E;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 15px;
+}
+.back{
+	background-color: #F2EFF2;
+}
+.tituloran{
+	text-align: center;
+	font-family: Montserrat;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rank1{
+	text-align: center;
+}
+.imgrank1{
+	width: 30%;
+	height: 250px;
+	border: #EC661E 3px solid;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.medalla{
+	width: 100px;
+	margin-bottom: 15px;
+}
+.MoneySan {
+	margin-left: 456px;
+	font-family: Josefin Sans;
+}
+.imgrank{
+	width: 60%;
+	height: 150px;
+	border: #EC661E 3px solid;
+	margin-left: 10px;
+}
+.nombrerank{
+	color: black;
+	font-family: Josefin Sans;
+	margin-bottom: 10px;
+}
+.moneyDany {
+	margin-top: -90px;
+	margin-bottom: 15px;
+	float: left;
+}
+.nombrerank1{
+	color: black;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-family: Josefin Sans;
+	margin-top: 10px;	
+	border: 2px solid gray;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	opacity: .4;
+}
+.money{
+	display: inline-block;
+	margin:50px 0px;
+	
+}
+.smi {
+	margin-left: 10px;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: .7;
+}
+/*Arreglo de Footer*/
+header {
+  font-family: Josefin Sans;;
+}
+.FooterTex {
+  font-family: Josefin Sans;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+span {
+  color: white;
+}
+.MH {
+  font-family: Josefin Sans;
+  background-color: #EC661E;
+  margin-top: 30px;
+}
+.FooterIzq {
+  text-align: right;
+}

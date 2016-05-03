@@ -1,0 +1,59 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+div {
+	height: 200px;
+	text-align: center;
+}
+@media (min-width: 320px) and (min-width: 375px) {
+  body {
+    background-color: green;
+  }
+  div {
+  	background-color: purple;
+  }
+  p {
+  	font-size: 40px;
+  }
+}
+@media (min-width: 375px) and (min-width: 667px) {
+  body {
+    background-color: yellow;
+  }
+  div {
+  	background-color: gray;
+  }
+  p {
+  	font-size: 60px;
+  }
+}
+@media (min-width: 668px) and (min-width: 999px) {
+  body {
+    background-color: red;
+  }
+  div {
+  	background-color: black;
+  }
+  p {
+  	font-size: 80px;
+  	color: red;
+  }
+}
+@media (min-width: 1000px) and (min-width: 1300px) {
+  body {
+    background-color: blue;
+  }
+  div {
+  	background-color: white;
+  }
+  p {
+  	font-size: 100px;
+  }
+}
+
+
+

@@ -1,0 +1,45 @@
+/*Global*/
+.foont20{
+	font-size:20px;
+}
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pt-10{
+	padding-top: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-10{
+	padding-bottom: 10%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+.text-blue{
+ color: #192951;
+}
+.a-none-decoration{
+	text-decoration: none;

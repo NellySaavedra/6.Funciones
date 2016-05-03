@@ -1,0 +1,357 @@
+*{
+	font-family: Montserrat;
+}
+
+#logo{
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+  margin-top: 10px;
+}
+.form{
+	display: inline;
+}
+
+.orange_login{
+	background-color: #EC661E;
+}
+table{
+	position: relative;
+	left:80px;
+	border-collapse: collapse; 
+	margin-top: 30px;
+	width: 100px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.colum_login{
+	position: relative;
+	right: 700px;
+}
+td{
+	padding:10px;
+	position: relative;
+	left:160px;	
+	bottom: 60px;
+}
+/*Boton de login*/
+ .boton_login_log2{       
+  	width: 120px;
+  	height:30px;
+    background: #FFFFFF;
+    text-align: center;
+    position: relative;
+   	bottom:100px; 
+    left: 110px;
+	float: right;
+    border-radius: 4px;
+    display: inline-block;
+ }
+ .boton_login_log2 a{
+  position: relative;
+  top:4px;
+  text-decoration: none;
+  font-size: 10px;
+  color:#EC661E;
+  text-transform: uppercase;
+ }
+ .boton_login_log{       
+ 	width: 120px;
+  	height:30px;
+    background: #FFFFFF;
+    text-align: center;
+    position: relative; 
+   	bottom: 65px;
+   	right: 10px;
+	float: right;
+    border-radius: 4px;
+    display: inline-block;
+ }
+  .boton_login_log a{
+  position: relative;
+  top:4px;
+  text-decoration: none;
+  font-size: 10px;
+  color:#EC661E;
+  text-transform: uppercase;
+ }
+ /*diseño nice*/
+
+.boton_login_log2,
+.boton_login_log{
+  background: #f5f5f5;
+  border-color: #dedede #d8d8d8 #d3d3d3;
+  box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+  background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: -webkit-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: o-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: ms-linear-gradient(top,  #f9f9f9, #f0f0f0);
+  background: linear-gradient(top,  #f9f9f9, #f0f0f0);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0');
+}
+
+.boton_login_log2,
+.boton_login_log{
+    background: #f4f4f4;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    text-shadow: 0 1px 0 #fdfdfd;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+}
+
+#opaciconfi_login{
+	float: left;
+	position: relative;
+	bottom: 150px;
+	left: 600px;
+  	text-decoration: none;
+  	color:#000000;
+  	font-size: 12px;
+  	font-weight: bold;
+ 	 opacity: 0.3;
+}
+
+
+/*sliders felices*/
+#slider-wrapper {
+  float: left;
+  width: 940px;
+  height: 470px;
+  margin: 50px auto;
+  position: relative;
+  right: 14px;
+  top: -120px;
+  margin-bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+#s1 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -36px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s2 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -12px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s3 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 12px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s4 {
+  padding: 6px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 36px;
+  border-radius: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#s1:hover,
+#s2:hover,
+#s3:hover,
+#s4:hover {
+  opacity: .50;
+}
+
+.inner-wrapper {
+  width: 940px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.control {
+  display: none;
+}
+
+#Slide1:checked ~ .overflow-wrapper {
+  margin-left: 0%;
+}
+
+#Slide2:checked ~ .overflow-wrapper {
+  margin-left: -100%;
+}
+
+#Slide3:checked ~ .overflow-wrapper {
+  margin-left: -200%;
+}
+
+#Slide4:checked ~ .overflow-wrapper {
+  margin-left: -300%;
+}
+
+#Slide1:checked + #s1 {
+  opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+  opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+  opacity: 1;
+}
+
+#Slide4:checked + #s4 {
+  opacity: 1;
+}
+
+.overflow-wrapper {
+  width: 400%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.slide img {
+  width: 25%;
+  float: left;
+}
+/*Intento mamon de separador*//*8:11 y estoy hasta la madre :D*/
+#orange_separator{
+	background-color: #EC661E;
+	height: 100px;
+	width: 940px;
+	position: relative;
+	top: -120px;
+	right: 28px;
+}
+/*Formulario de registro*/
+.dshoes{
+	background-image:url("../img/rostros-gris.png"); /*Fonde del encabezado*/
+	background-size:auto;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 100%;
+	min-height: 350px;
+}
+.form_login_registrer2{
+	list-style: none;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#form_registrer_login{
+	position: relative;
+	top: -80px;
+	left: -30px;
+}
+h1,h2{
+	margin-left: 10px;
+	margin-bottom: 30px;
+	color: #EC661E;
+}
+.styleinp {
+  padding: 5px;
+}
+.styleinp2{
+	width: 400px;
+	height: 30px;
+  padding-left: 10px;
+}
+.biglabel{
+	height: 150px
+}
+#no_cerrar_login{
+  position: relative;
+  left: 12px;
+  top:100px;
+}
+.botonbig2{       
+	width: 200px;
+	height:60px;
+    background: #EC661E;
+   	text-align: center;
+   	position: relative;
+   	left: 70px
+   	bottom: 25px;
+   	border-radius: 4px;
+   	margin-bottom: 30px;
+   	margin-top: 50px;
+
+ }
+ .botonbig2 a{
+ 	position: relative;
+ 	top: 20px;
+  	text-decoration: none;
+ 	font-size: 16px;
+ 	color:#FFFFFF;
+	text-transform: uppercase;
+ }
+ #facebook{
+ 	width: 200px;
+ 	height: 40px;
+ 	position: relative;
+ 	top:-85px;
+ 	left:220px;
+ }
+ /*Arreglo de Footer*/
+header {
+  padding-top: 60px;
+}
+.FooterTex {
+  font-family:;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Josefin Sans;
+}
+span {
+  color: white;
+}
+.MH {
+  font-family:;
+  background-color: #EC661E;
+  margin-top: 30px;
+}
+.FooterIzq {
+  text-align: right;
+}
+#fondo {
+  opacity: .6;
+}

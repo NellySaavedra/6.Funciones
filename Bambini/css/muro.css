@@ -1,0 +1,316 @@
+/*......................................HEADER...............................*/
+*{
+	font-family: "Josefin Sans";
+}
+.h11{
+	font-family: "Montserrat";
+}
+.logomu {
+width: 150px;
+margin-top: 20px;
+}
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+line-height: 20px;
+white-space: nowrap;
+}
+nav li {
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+border-right: 1px #EC661E solid;
+}
+nav li:hover a{
+background: #F83232;
+text-decoration: none;
+}
+nav a {
+text-decoration: none;
+padding: 10px 25px;
+color: #EC661E;
+}
+nav a:hover {
+color: #EFFCE4;
+}
+a{
+	text-decoration: none;
+}
+/*.........................................................................................*/
+/*Arreglo de Panel*/
+.PanelImg {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.ImgPanel {
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
+	text-align: center;
+	border: 3px solid #EC661E;
+	border-radius: 15px;
+	z-index: -1;
+	margin-left: 15px;
+}
+.TextOpa{
+	width: 89%;
+	font-family: Josefin Sans;
+	height: 60px;
+	margin-top: -160px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: .6;
+	border: 1px solid gray;
+	padding-top: 15px;
+	margin-left: 25px;
+	border-radius: 15px;
+
+}
+.TextOpa:hover {
+	background-color: white;
+}
+
+/*.............................................SECCION MURO........................................*/
+.bgretos{
+	background-image: url(../imgmuro/reto_semana.jpg);
+	background-size: 101%;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+
+.bgmu{		/* Propiedades de la imagen sin reto*/
+	background-image: url(../imgmuro/sinreto.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 16%;
+	margin-top: 2%;
+	border-top: #EC661E 3px solid;
+	border-bottom: #EC661E 3px solid;
+}
+.bgmuro{	/* fondo de color de muro gris*/
+	background-color: #F2EFF2;
+}
+.retom1 {		/*Propiedades de las imagenes de los retos*/
+	width: 50%;
+	padding: 5px;
+	border:2px #EC661E solid;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+.pmu {
+	text-align: center;
+	font-size: 15px;
+} 
+.pmu1{
+	font-size: 15px;
+	padding-bottom: 15px;
+	margin-left: 15px;
+}
+
+/*.................................................SECCION DE CAJAS......................................*/
+
+.caja1{			/*Caja de ranking gde principal*/
+	width: 180px;
+	height: 20px;
+	padding-left: 6%;
+	border: 2.5px #EC661E solid;
+	border-radius: 10px;
+	margin-left: 10px;	
+	font-size: 12px;
+}
+.botton-muro {		/* Boton de hazlo*/
+background-color: #EC661E;
+border-radius: 10px;
+color: white;
+padding: 10px 15px;
+text-align: center;
+margin: 20px 55px;
+cursor: pointer;
+}
+.cajita1{		/*Caja de ranking chica, color*/
+	width: 80px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 115px;
+	margin-left: -12px;	
+	border-radius: 10px;	
+}
+	
+.cajita2{		/*Caja de ranking chica, color*/
+	width: 80px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 82px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+.cajita3{		/*Caja de ranking chica, color*/
+	width: 80px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 15%;
+	padding-left: 95px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+
+.cajita1a{		/*Caja de ranking chica, color*/
+	width: 70px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 75px;
+	margin-left: -12px;	
+	border-radius: 10px;	
+}
+	
+.cajita2a{		/*Caja de ranking chica, color*/
+	width: 30px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 48px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+.cajita3a{		/*Caja de ranking chica, color*/
+	width: 20px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 15%;
+	padding-left: 33px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+
+.cajita1b{		/*Caja de taladro*/
+	width: 90px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 89px;
+	margin-left: -12px;	
+	border-radius: 10px;	
+}
+	
+.cajita2b{		/*Caja de taladro*/
+	width: 50px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 50px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+.cajita3b{		/*Caja de desbloquea mas*/
+	width: 50px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 15%;
+	padding-left: 50px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+
+.cajita1c{		/*Caja de desbloquea mas*/
+	width: 90px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 144px;
+	margin-left: -12px;	
+	border-radius: 10px;	
+}
+	
+.cajita2c{		/*Caja de desbloquea mas*/
+	width: 80px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 16%;
+	padding-left: 82px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+.cajita3c{		/*Caja de taladro*/
+	width: 80px;
+	height: 17px;
+	background-image:url(../imgmuro/rank1.jpg); 
+	background-size: 15%;
+	padding-left: 95px;
+	margin-left: -12px;
+	border-radius: 10px;
+}
+/*.................RANKIG.............................................................................................*/
+/* span{
+	color: black !important;
+} */
+.rank1{ 
+	text-align: left;
+	margin-left: 20px;
+	margin-top: -15px;
+	padding: 6%;
+
+}
+.rel{
+	background-image: url(../imgmuro/reloj.png);
+	background-repeat: no-repeat;
+	background-size: 10%;
+	padding: 8%;
+	margin-bottom:-5px; 
+	margin-left: -10px;
+}
+.cro{
+	background-image: url(../imgmuro/crono.jpg);
+	background-repeat: no-repeat;
+	background-size: 12%;
+	padding: 9%;
+	margin-bottom:7px; 
+	margin-left: -10px;
+}
+.mon {
+	background-image: url(../imgmuro/moneda.jpg);
+	background-repeat: no-repeat;
+	background-size: 9%;
+	padding: 9%;	
+	margin-left: -10px;
+	margin-top:-19px;
+}
+.mg-5{
+	margin-left: 25px;
+	margin-top: -20px
+}
+
+.botton-ran{		/* Boton de hazlo*/
+background-color: #EC661E;
+border-radius: 10px;
+color: white;
+padding: 10px 20px;
+text-align: center;
+margin: 90px 30px;
+cursor: pointer;
+}
+/*..........FOOTER........................................................................................................*/
+
+.FooterTex {
+  font-family: Josefin Sans;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+span {
+  color: white;
+}
+.MH {
+  font-family: Josefin Sans;
+  background-color: #EC661E;
+/*   margin-top: 30px; */
+}
+.FooterIzq {
+  text-align: right;
+}

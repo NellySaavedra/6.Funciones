@@ -1,0 +1,94 @@
+h2 {
+	color: #3D3D3B;
+}
+.A100 {
+	width: 100%;
+}
+.BImg {	
+	background-position: center;
+	background-size: 100%;
+	background-size: cover;
+	z-index: -1;
+	height: 300px;
+		/*padding: 5px 0px;*/
+}
+.Img1 {
+	background-image: url(../../Img/Mov.jpg);
+	padding-top: 20%;
+
+}
+.Img2 {
+	background-image: url(../../Img/Jov.jpg);
+	padding-top: 20%;
+}
+.Img3 {
+	background-image: url(../../Img/Juego.jpg);
+	padding-top: 20%;
+}
+.TWhite {
+	color: #FFFFFF;
+}
+.Rgba1 {
+background-color: rgba(204, 162, 0, 0.8);
+}
+.Rgba2 {
+background-color: rgba(127, 42, 101, 0.6); 
+}
+.Rgba3 {
+background-color: rgba(0, 151, 132, 0.7);
+}
+.CajaText {
+	display: none;
+}
+/*-------------------Hover------------------*/
+.Ht {
+	margin-top: 2%;
+}
+.Ht:hover .CajaText {
+	display: block;
+}
+.Ht:hover h4 {
+	display: none;
+}
+.Ht:hover h3 {
+	display: none;
+}
+.Ht:hover p {
+	padding: 2%;
+	margin: 2%;
+}
+.Ht:hover .BImg {
+	padding: 2%;
+}
+.Ht:hover .Rgba3 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top:23%;
+}
+.Ht:hover .Rgba2 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top: 5%;
+}
+.Ht:hover .Rgba1 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top: 5%;
+	vertical-align: middle;
+}
+/*---------------------Fin-de-Hover-------------------*/
+.Marco {
+	background-color: #009E88;
+	color: white;
+	padding: 2%;
+}
+.CajaIco {
+	width: 15%;
+	float: left;
+}
+.CajaT2 {
+	width: 88%;
+}
+.btn {
+	background-color:  #FFD600;
+}
+h3 {
+
+}

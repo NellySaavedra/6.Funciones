@@ -1,0 +1,150 @@
+/*Arreglo de Galería*/
+.LogoGaleria {
+	text-align: right;
+}
+.LogoSize {
+	width: 191px;
+	height: 62px;
+}
+h1 {
+	font-family: Montserrat;
+	background-color: #EC661E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+
+}
+.GaleriaVF {
+	background-color: #F2EFF2;
+	font-family: Josefin Sans;
+}
+.PositionIcoG {
+	text-align: center;
+}
+.EspaImg {
+	width: 5px;
+	float: left;
+
+}
+.ImgGaleria {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 15px;
+	border: 3px solid #EC661E;
+}
+.RenglondeGaleria {
+	margin-top: 30px;
+}
+.IcoManita {
+	width: 70%;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+
+}
+.InLine {
+	display: inline-block;
+}
+.Uno {
+	padding: 5px;
+	width: 20%;
+}
+.Dos {
+	padding-bottom: 10px;
+}
+.Tres {
+	margin-left: 20px;
+}
+.PImg {
+	height: 60px;
+	border: 3px solid  #EC661E;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 302px;
+}
+.FontG {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.IcoV {
+	text-align: center;
+}
+.TSubGa {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.MT {
+	margin-top: 30px;
+}
+iframe {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid  #EC661E;
+}
+/*Arreglo de Footer*/
+header {
+	padding-top: 60px;
+}
+.FooterTex {
+	font-family: Josefin Sans;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+span {
+	color: white;
+}
+.MH {
+	font-family: Josefin Sans;
+	background-color: #EC661E;
+	margin-top: 30px;
+}
+.FooterIzq {
+	text-align: right;
+}
+/*......................................HEADER...............................*/
+footer {
+	font-family: Josefin Sans;
+}
+.HHH {
+	margin-top: -65px;
+}
+.logomu {
+width: 150px;
+margin-top: 20px;
+}
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+line-height: 20px;
+white-space: nowrap;
+font-family: Josefin Sans;
+}
+nav li {
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+border-right: 1px #EC661E solid;
+}
+nav li:hover a{
+background: #F83232;
+text-decoration: none;
+}
+nav a {
+text-decoration: none;
+padding: 10px 25px;
+color: #EC661E;
+}
+nav a:hover {
+color: #EFFCE4;
+}
+a{
+	text-decoration: none;
+}
+/*.........................................................................................*/

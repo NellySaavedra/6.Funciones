@@ -1,0 +1,107 @@
+$number-of-columns: 12;
+
+%clearfix {
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+@mixin  grid-columns {
+  $base-width: 100 / $number-of-columns; /*---------------imp-------------*/
+
+  @for $i from 1 through $number-of-columns {
+    .col-#{$i} {
+      width: percentage(($base-width * $i) / 100);
+    }
+  }
+}
+
+.row {
+  @extend %clearfix;
+  @include grid-columns;
+  display: block;
+  text-rendering: optimizespeed;
+
+  &.danger,
+  [class*="col-"].danger {
+    background: rgba(231, 76, 60, 0.8);
+  }
+
+  &.warning,
+  [class*="col-"].warning {
+    background: rgba(241, 196, 15, 0.8);;
+  }
+
+  &.success,
+  [class*="col-"].success {
+    background: rgba(46, 204, 113, 0.8);
+  }
+
+  /*.col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66667%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33333%;
+  }
+
+  .col-5 {
+    width: 41.66667%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33333%;
+  }
+
+  .col-8{
+    width: 66.66667%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33333%;
+  }
+
+  .col-11 {
+    width: 91.66667%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }*/
+
+  & + & {
+    margin-top: 0.14286rem;
+  }
+}
+
+[class*="col-"] {
+  @extend %clearfix;
+  padding: 8px 8px 8px 0;
+  float: left;
+
+  &.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+  }
+}
